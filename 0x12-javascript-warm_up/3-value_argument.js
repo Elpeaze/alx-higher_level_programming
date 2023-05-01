@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const [argsNum1, ...argsNum_nth] = process.argv.slice(2);
+const [argsNum1] = process.argv.slice(2);
 
 if (!argsNum1) {
   console.log('No argument');
