@@ -1,3 +1,3 @@
 -- Displays full table description
 
-SHOW CREATE TABLE first_table.hbtn_0c_0;
+SHOW CREATE TABLE hbtn_0c_0.first_table;
