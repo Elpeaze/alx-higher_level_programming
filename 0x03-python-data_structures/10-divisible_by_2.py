@@ -7,3 +7,18 @@ def divisible_by_2(my_list=[]):
         else:
             new_list.append(False)
     return new_list
+
+
+"""Alternative Solution
+"""
+
+""
+def divisible_by_2(my_list=[]):
+  _bool = []
+  for value in my_list:
+    if value % 2 == 0:
+      _bool.append(True)
+    else:
+      _bool.append(False)
+  return _bool
+"""
