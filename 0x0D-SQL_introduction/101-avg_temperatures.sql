@@ -1,3 +1,6 @@
 -- Imports in the database the table dump file.
 
-mysql -u tranex -p hbtn_0c_0 < temperatures.sql
+SELECT city, AVG(value) AS avg_temp
+FROM hbtn_0c_0.temperatures
+GROUP BY city
+ORDER BY avg_temp DESC;
