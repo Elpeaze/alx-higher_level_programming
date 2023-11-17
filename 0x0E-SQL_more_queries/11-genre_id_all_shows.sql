@@ -2,11 +2,11 @@
 -- that have at least one genre linked.
 
 SELECT
-	tv_shows.title, tv_show_genre.genre_id
+	ts.title, tsg.genre_id
 FROM
 	tv_shows AS ts
 LEFT JOIN
-	tv_show_genre AS tsg
+	tv_show_genres AS tsg
 ON tsg.show_id = ts.id
 ORDER BY
 	ts.title, tsg.genre_id;
