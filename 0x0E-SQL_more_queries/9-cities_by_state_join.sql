@@ -1,5 +1,4 @@
 -- Lists all cities contained in the database hbtn_0d_usa.
--- Using the join method.
 
 SELECT cities.id, cities.name. states.name
 FROM cities
