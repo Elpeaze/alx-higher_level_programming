@@ -2,9 +2,9 @@
 
 const fs = require('fs');
 
-filePath = process.argv[2];
+const filePath = process.argv[2];
 
-fs.readFile(filePath, { encoding:'utf-8' }, (error, data) => {
+fs.readFile(filePath, { encoding: 'utf-8' }, (error, data) => {
   if (error) {
     console.log(error);
   } else {
