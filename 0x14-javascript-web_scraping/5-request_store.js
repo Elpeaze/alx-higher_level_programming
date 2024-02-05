@@ -9,11 +9,11 @@ const filePath = process.argv[3];
 request(url, 'utf-8', (err, res, data) => {
   if (err) {
     console.log(err);
-	return;
+    return;
   }
   fs.writeFile(filePath, data, (err) => {
     if (err) {
-	  console.log(err);
-	}
+      console.log(err);
+    }
   });
 });
