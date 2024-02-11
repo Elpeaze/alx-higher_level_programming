@@ -1,6 +1,4 @@
---Import the database dump from hbtn_0d_tvshows to your MySQL server
 -- lists all Comedy shows in the database hbtn_0d_tvshows
-
 SELECT title FROM tv_genres
 INNER JOIN tv_show_genres
 ON tv_genres.id = tv_show_genres.genre_id
